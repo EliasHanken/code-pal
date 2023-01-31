@@ -1,0 +1,23 @@
+#text-editor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    height: 95%;
+    background-color: #282c31;
+    outline: none;
+
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+
+    color: white;
+    font-size: 14px;
+    font-family: Consolas, 'Courier New', monospace;
+ }
